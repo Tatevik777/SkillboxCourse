@@ -87,13 +87,26 @@ public class Cat<eyesCount> {
         else {
             return "Playing";
         }
+
     }
 
     public void catCount(){
         Cat.count++;
-        System.out.println("Живых кошек наблюдается " + count);
+        System.out.println("Живых кошек наблюдается " + count);}
+
+    public Cat makeTwin(){
+        Cat catTwin = new Cat(this.weight);
+        catTwin.originWeight = this.originWeight;
+        catTwin.minWeight = this.minWeight;
+        catTwin.maxWeight = this.maxWeight;
+        return catTwin;
     }
 
+    public static Cat makeTwin(Cat ownerCat) {
+        return ownerCat.makeTwin();
     }
+    }
+
+
 
 
