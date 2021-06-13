@@ -4,8 +4,10 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Module2/Module2.iml" filepath="$PROJECT_DIR$/Module2/Module2.iml" />
       <module fileurl="file://$PROJECT_DIR$/Module3/Module3.iml" filepath="$PROJECT_DIR$/Module3/Module3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Module6/Module6.iml" filepath="$PROJECT_DIR$/Module6/Module6.iml" />
       <module fileurl="file://$PROJECT_DIR$/SkillboxCourse.iml" filepath="$PROJECT_DIR$/SkillboxCourse.iml" />
       <module fileurl="file://$PROJECT_DIR$/module4/module4.iml" filepath="$PROJECT_DIR$/module4/module4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module5/module5.iml" filepath="$PROJECT_DIR$/module5/module5.iml" />
     </modules>
   </component>
 </project>
